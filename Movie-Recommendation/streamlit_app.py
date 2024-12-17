@@ -4,7 +4,7 @@ from IPython.display import Markdown
 import textwrap
 import random
 
-genai.configure(api_key='AIzaSyDlBFVsmV8pao6Ax-bcR0dc5h4CusiNCsc')
+genai.configure(api_key='<api key>')
 
 def to_markdown(text):
     return text
