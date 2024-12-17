@@ -1,6 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyDKcxALky8LiROaxb0RGMw8TLLOcujMRMY")
+genai.configure(api_key="<api key>")
 model = genai.GenerativeModel(model_name="gemini-pro")
 def generate_recipe(preference, ingredients,allergies):
     prompt = f'"As an experienced culinarian and as a person who not only knows a variety of dishes but can also cook them, Given the following list of ingredients, suggest a suitable recipe to cook. The ingredients: {", ".join(ingredients)}. The user has a preference for {preference} dishes, and he user is alergic to these ingredients:{allergies}."'
