@@ -24,7 +24,7 @@ def main():
     input_option = st.radio("Input Option:", ("Upload Images", "Enter Image URLs"))
     
     # Initialize Language Model
-    llm = ChatGoogleGenerativeAI(model="gemini-pro-vision", google_api_key='AIzaSyDlBFVsmV8pao6Ax-bcR0dc5h4CusiNCsc')
+    llm = ChatGoogleGenerativeAI(model="gemini-pro-vision", google_api_key='<api key>')
     
     # User input fields based on the selected option
     images = []
