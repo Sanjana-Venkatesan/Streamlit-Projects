@@ -2,7 +2,7 @@ import streamlit as st
 from google.generativeai import configure, GenerativeModel
 
 # Configure the Generative AI
-configure(api_key="AIzaSyDlBFVsmV8pao6Ax-bcR0dc5h4CusiNCsc")
+configure(api_key="<api key>")
 model = GenerativeModel(model_name="gemini-pro")
 
 def prompt(movie_title):
