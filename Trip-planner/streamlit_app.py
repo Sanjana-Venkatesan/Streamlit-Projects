@@ -13,7 +13,7 @@ import streamlit as st
 
 llm = GoogleGenerativeAI(
            model="gemini-pro",
-           google_api_key='AIzaSyDKcxALky8LiROaxb0RGMw8TLLOcujMRMY'
+           google_api_key='<api key>'
            )
 
 class TripTasks():
