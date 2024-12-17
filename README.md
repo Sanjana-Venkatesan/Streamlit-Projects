@@ -84,9 +84,6 @@ Creates lesson plans tailored to the subject and grade level provided.
 ### 17. **Manhwa Recommendation**  
 Get recommendations for manhwa (Korean comics) based on user preferences.  
 
-### 18. **My App**  
-A placeholder application that serves as a starting point for new ideas.  
-
 ### 19. **Object Detection**  
 Detect objects in images using pre-trained object detection models.  
 
