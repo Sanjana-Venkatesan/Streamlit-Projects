@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure GenerativeAI
-genai.configure(api_key="AIzaSyDKcxALky8LiROaxb0RGMw8TLLOcujMRMY")
+genai.configure(api_key="<api key>")
 model = genai.GenerativeModel(model_name="gemini-pro")
 
 # Define function to generate prologue and epilogue
