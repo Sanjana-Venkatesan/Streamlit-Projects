@@ -5,7 +5,7 @@ from langchain_google_genai import GoogleGenerativeAI
 
 llm = GoogleGenerativeAI(
            model="gemini-pro",
-           google_api_key='AIzaSyDKcxALky8LiROaxb0RGMw8TLLOcujMRMY'
+           google_api_key='<api key>'
            )
 class GameTasks():
     def code_task(self, agent, game):
