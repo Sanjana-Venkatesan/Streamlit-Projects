@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyDKcxALky8LiROaxb0RGMw8TLLOcujMRMY")
+genai.configure(api_key="<api key>")
 llm = genai.GenerativeModel(model_name="gemini-pro")
 
 def prompt(text):
