@@ -3,7 +3,7 @@ from PIL import Image
 import google.generativeai as genai
 import requests  # Import requests library to fetch image URLs
 
-genai.configure(api_key="AIzaSyDKcxALky8LiROaxb0RGMw8TLLOcujMRMY")
+genai.configure(api_key="Api key>")
 model = genai.GenerativeModel(model_name="gemini-pro")
 
 def get_user_profile():
