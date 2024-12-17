@@ -5,7 +5,7 @@ from io import BytesIO
 import google.generativeai as genai
 
 # Configure GenAI API
-genai.configure(api_key='AIzaSyDlBFVsmV8pao6Ax-bcR0dc5h4CusiNCsc')
+genai.configure(api_key='<api key>')
 
 # Define function to identify manga character
 def identify_manga_character(image):
