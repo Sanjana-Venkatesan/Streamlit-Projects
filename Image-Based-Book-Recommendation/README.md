@@ -1,25 +1,118 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# Image-Based Book Recommendation 📚  
 
-Description of the app ...
+This **Image-Based Book Recommendation** app leverages **Google's Gemini Pro Vision API** to analyze an uploaded image and provide relevant book recommendations based on its content.  
 
-## Demo App
+---
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+## Features 🛠️  
 
-## GitHub Codespaces
+1. **Image Input Options**:  
+   - Upload an image directly.  
+   - Provide an image URL for analysis.  
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
+2. **Book Recommendation**:  
+   - Uses **Gemini Pro Vision** to understand the image content.  
+   - Provides a book recommendation along with a short explanation (5 words) of its relevance to the image.  
 
-## Section Heading
+3. **Image Display**:  
+   - Resizes and displays the uploaded or fetched image for clarity.  
 
-This is filler text, please replace this with text for this section.
+---
 
-## Further Reading
+## Technologies Used 💻  
 
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+- **Streamlit**: For creating the web interface.  
+- **Pillow (PIL)**: For image processing.  
+- **Google Gemini Pro Vision**: For analyzing the image and generating recommendations.  
+- **Requests**: For fetching image data from a URL.  
+
+---
+
+## How It Works ⚙️  
+
+1. **Input Image**:  
+   - Users can upload an image file (JPG, PNG) or provide a URL.  
+
+2. **Gemini Vision API**:  
+   - The app processes the image and queries the **Gemini Pro Vision model** for a book recommendation.  
+
+3. **Output**:  
+   - Displays the image and provides a book recommendation with a brief explanation.  
+
+---
+
+## Installation 🚀  
+
+1. Clone the repository:  
+   ```bash
+   git clone <repo-url>
+   cd image-book-recommendation
+   ```
+
+2. Install dependencies:  
+   ```bash
+   pip install streamlit pillow requests langchain langchain-google-genai  
+   ```
+
+3. Run the Streamlit app:  
+   ```bash
+   streamlit run app.py  
+   ```
+
+---
+
+## Usage 🎯  
+
+1. Open the app in your browser (e.g., `http://localhost:8501`).  
+2. **Choose Input Option**:  
+   - Upload an image or provide an image URL.  
+3. **Generate Recommendation**:  
+   - Once processed, the app displays the uploaded image and a relevant book recommendation.  
+
+---
+
+## Example Output 📄  
+
+### **Input**:  
+- **Image**: An image related to nature or technology.  
+
+### **Output**:  
+- **Book Recommendation**: "The Overstory" by Richard Powers.  
+- **Reason**: "Nature’s beauty inspires human connection."  
+
+---
+
+## API Configuration 🔑  
+
+- Replace the `google_api_key` in the code with your **Google API Key** to use Gemini Pro Vision.  
+
+---
+
+## Dependencies 📦  
+
+- `streamlit`  
+- `Pillow`  
+- `requests`  
+- `langchain`  
+- `langchain-google-genai`  
+
+---
+
+## Limitations ⚠️  
+
+- Ensure your Google API key has access to **Gemini Pro Vision**.  
+- Input images should be clear and relevant to produce accurate recommendations.  
+
+---
+
+## Author ✨  
+
+**Sanjana Venkatesan**  
+- [GitHub](https://github.com/Sanjana-Venkatesan)  
+- [LinkedIn](#)
+
+---
+
+## License 📄  
+
+This project is licensed under the **MIT License**.  
